@@ -126,6 +126,6 @@ if __name__ == '__main__':
             A += a * final_ans[idx]
         r[i] = A - b_cp[i][0]
 
-    print('Матрица: ' + str(mat))
+    print('Матрица: \n' + '\n'.join(str(row) for row in mat))
     print('Найденные коэфф.: ' + str(final_ans))
     print('Вектор неувязок: ' + str(r))
